@@ -19,7 +19,7 @@ def classComparePlot(df, class_name, plotType='density'):
     print('Comparative histograms for',class_values)
     
     # Make the plots
-    colors = plt.cm.get_cmap('tab10').colors
+    colors = plt.get_cmap('tab10').colors
     fig = plt.figure(figsize=(unit_size,numcols*unit_size))
     ax = [None]*numcols 
     i = 0
